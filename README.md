@@ -92,9 +92,17 @@ If your code compiles correctly, you should see your function in the dropdown me
 ## 4. Run your app! 
 (You will probably want to do this step after leaving the Zoom call).
 
-If you have an Android phone, use these instructions to install your app onto your phone. 
+If you have an Android phone, use [this tutorial](https://developer.android.com/codelabs/basic-android-kotlin-training-run-on-mobile-device#0) to install your app onto your phone. 
 
-If you don't, you can still run your app! Use these instructions to set up the emulator.
+If you don't, you can still run your app! 
+1. Find `Tools->AVD Manager`. 
+1. Click `Create Virtual Device`.
+1. Pick a device. I picked `Pixel 3a`. Press `Next`.
+1. There might be a button on the right-side menu that asks you to install HAXM. If it's there, click it. 
+1. On the left-side menu, next to `R`, click `Download`. The download will take a while.
+1. After the download completes, press `Next`.
+1. Make sure the Startup Orientation says `Portrait`, and click `Finish`.
+1. Use [these instructions](https://developer.android.com/studio/run/emulator#runningapp) to run your app. The `Run` button is hard to find - it's on the bottom of the screen! 
 
 ## 5. Stretch Goals
 Some more things you can do:
@@ -102,4 +110,4 @@ Some more things you can do:
 - Can you add a button to do exponent? Modulo?
 - Make some error handling! in getNumbers, can you add some code to set `firstNumber` to 0 if the its EditText was empty, and `secondNumber` to 0 if the second EditText was empty?
 
-(Based on [Geeks4Geeks tutorial](https://www.geeksforgeeks.org/how-to-build-a-simple-calculator-app-using-android-studio/))
+(Based on the [Geeks4Geeks tutorial](https://www.geeksforgeeks.org/how-to-build-a-simple-calculator-app-using-android-studio/))
