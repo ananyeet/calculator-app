@@ -3,23 +3,30 @@
 We're going to be making a calculator app. Since we've been having issues with Android Studio and Zoom, all the instructions are compiled here (with photos) and you'll get to go through the project by yourself or with another person. 
 
 Here's a screenshot of the final app:
-
-![Final app screenshot](img/finalAppScreenshot.png)
+<p align=center>
+    <img src="img/finalAppScreenshot.png" height=512>
+</p>
 
 ## 1. Create a New Project!
 
 Open android studio, and create a new project. Use an **empty activity** and make sure the language is set to Java:
 
-![Create Activity Screenshot](img/makeNewApp.png)
+<p align=center>
+    <img src="img/makeNewApp.png" height=512>
+</p>
 
 After you click "Finish", Android Studio will generate your project. It may take some time. There will be a screen that looks like the one below (you may need to click the "Project" tab on the left side): 
 
-![project_loaded](img/project_loaded.png)
+<p align=center>
+    <img src="img/project_loaded.png" height=512>
+</p>
 
 ## 2. Create the User Interface!
 Under `app->res->layout`, open `activity_main.xml`. You should see two screens that say "Hello World!" - if you don't, press "Design" on the left side:
 
-![design_tab](img/design_tab.png)
+<p align=center>
+    <img src="img/design_tab.png" height=300>
+</p>
 
 ### Make the interface
 
@@ -32,17 +39,23 @@ You can put them wherever you like, at whatever size you like, and whatever colo
 
 You can drag and drop the buttons, but try to constrain your buttons and TextViews using the menu on the left:
 
-![constraints_example](img/constraints_example.png)
+<p align=center>
+    <img src="img/constraints_example.png" width=300>
+</p>
 
 To change the text on your Button, scroll down in the Attributes window (where Layout is) until you see "Common Attributes". Look for "text". 
 
 For the hint text in the TextViews, use Attributes->All Attributes->Hint:
 
-![hint](img/hint.png)
+<p align=center>
+    <img src="img/hint.png" width=300>
+</p>
 
 (You can use the search button too!)
 
-![search](img/searchAttributes.png)
+<p align=center>
+    <img src="img/searchAttributes.png" width=300>
+</p>
 
 Optional: To get your buttons aligned properly, consider using a LinearLayout (under Palette->Layouts->Linear Layout). 
 
@@ -50,7 +63,9 @@ Optional: To get your buttons aligned properly, consider using a LinearLayout (u
 
 **IMPORTANT:** You can set ids for each of your items using the Attributes panel. Make sure your button ids and textView ids are things that make sense and represent what the button is doing! For example, my addition button is named additionButton:
 
-![id](img/id.png)
+<p align=center>
+    <img src="img/id.png" width=300>
+</p>
 
 Try to make your IDs without spaces,underscores, hyphens, or any punctuation.
 (if you see a message about renaming things, just press "Refactor")
@@ -72,11 +87,15 @@ String calculator_result="Result";
 
 Then, set the TextView's value to that string variable. Back in `activity_main.xml`, select the result's TextView and under Attributes->Common Attributes, set the text as the string's variable:
 
-![set_variable](img/set_variable.png)
+<p align=center>
+    <img src="img/set_variable.png" width=300>
+</p>
 
 Your user interface should show the word "Result" where the TextView is:
 
-![final_ui](img/final_ui.png)
+<p align=center>
+    <img src="img/final_ui.png" height=500>
+</p>
 
 (this is my UI; I didn't change any of the colors or fonts! Yours will look different.)
 
@@ -91,7 +110,9 @@ There are many TODO statements. Start from the top, and work your way down. You 
 **To set a button's listener**: go back to `activity_main.xml` and find the button you want to set. In its Attributes menu, search for `onClick`. 
 If your code compiles correctly, you should see your function in the dropdown menu:
 
-![addOnClick](img/addOnClick.png)
+<p align=center>
+    <img src="img/addOnClick.png" width=300>
+</p>
 
 **Warning**: The division button's listener is not as easy! You can't use `int` to store the result of the division. What data type can you use?
 
