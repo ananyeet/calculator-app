@@ -105,7 +105,7 @@ Now, we write the Java Code. Find `app->Java->com.example.[YourAppName]->MainAct
 
 Replace all the code in MainActivity.java with this [MainActivity Template](template/MainActivity.java).
 
-There are many TODO statements. Start from the top, and work your way down. You can read through each of the lines or skip through and fill in only the TODO lines, your choice. There are examples in the code as well.
+There are many TODO statements (Android Studio should make their text bright blue). Start from the top, and work your way down. You can read through each of the lines or skip through and fill in only the TODO lines, your choice. There are examples in the code as well.
 
 **To set a button's listener**: go back to `activity_main.xml` and find the button you want to set. In its Attributes menu, search for `onClick`. 
 If your code compiles correctly, you should see your function in the dropdown menu:
