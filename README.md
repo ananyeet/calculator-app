@@ -41,6 +41,7 @@ For the hint text in the TextViews, use Attributes->All Attributes->Hint:
 ![hint](img/hint.png)
 
 (You can use the search button too!)
+
 ![search](img/searchAttributes.png)
 
 Optional: To get your buttons aligned properly, consider using a LinearLayout (under Palette->Layouts->Linear Layout). 
