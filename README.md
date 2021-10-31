@@ -1,4 +1,10 @@
-# calculator-app
+# Calculator App
+
+We're going to be making a calculator app. Since we've been having issues with Android Studio and Zoom, all the instructions are compiled here (with photos) and you'll get to go through the project by yourself or with another person. 
+
+Here's a screenshot of the final app:
+
+![Final app screenshot](img/finalAppScreenshot.png)
 
 ## 1. Create a New Project!
 
