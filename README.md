@@ -114,7 +114,7 @@ If your code compiles correctly, you should see your function in the dropdown me
     <img src="img/addOnClick.png" width=300>
 </p>
 
-**Warning**: The division button's listener is not as easy! You can't use `int` to store the result of the division. What data type can you use?
+**Warning**: The division button's listener is not as easy! You can't use `int`s for division. What data type can you use?
 
 
 ## 4. Run your app! 
