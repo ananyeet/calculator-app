@@ -4,8 +4,8 @@ We're going to be making a color-changer!
 
 Here are some screenshots of the final app:
 <p align=center>
-    <img src="img/finalAppScreenshotWhite.png" height=512>
-    <img src="img/finalAppScreenshotRed.png" height=512>
+    <img src="img/screenshot1.png" height=512>
+    <img src="img/screenshot2.png" height=512>
 </p>
 
 ## 1. Create a new project! 
